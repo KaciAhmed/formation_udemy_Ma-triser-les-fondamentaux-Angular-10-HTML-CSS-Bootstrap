@@ -1,0 +1,14 @@
+h1{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+ color: white;
+ text-align: center;
+ background-color: brown;
+}
+.redColorElement{
+    color: blue;
+    text-align: left;
+}

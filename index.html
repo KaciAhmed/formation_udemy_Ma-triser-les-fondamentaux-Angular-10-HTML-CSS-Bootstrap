@@ -5,26 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>selfie à woookie</title>
+    <style>
+        h1{
+            color: red;
+            font-size: 30px;
+            text-align: center;
+        }
+        h2{
+         color: white;
+         text-align: center;
+         background-color: brown;
+        }
+    </style>
 </head>
 <body>
     <div>
         Header !!
     </div>
     <div>
-        <!-- 
-            URL absolue
-            <img src="data:image/jpeg;base64,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" alt="wookie à la neige">
-         -->
-         <!-- 
-             URL relative
-          -->
+     
           <section>
               <article>
                 <header>
                     <div>
                         <div>
-                            <h1 style="color: red;font-size:30px;text-align:center">Le titre du selfie</h1>
-                            <h2 style="color: white;text-align: center;background-color: brown;"> le sous titre</h2>
+                            <h1 style="color: yellow;">Le titre du selfie</h1>
+                            <h2> le sous titre</h2>
                         </div>
                           <div>
                               [...]
@@ -37,8 +43,8 @@
                   <header>
                     <div>
                         <div>
-                            <h1 style="color:green;font-size:30px;text-align:center">Le titre du selfie</h1>
-                            <h2 style="color: white;text-align: center;background-color: brown;"> le sous titre</h2>
+                            <h1>Le titre du selfie</h1>
+                            <h2> le sous titre</h2>
 
                         </div>
                           <div>
@@ -55,5 +61,6 @@
     <div>
         Footer
     </div>
+  
 </body>
 </html>

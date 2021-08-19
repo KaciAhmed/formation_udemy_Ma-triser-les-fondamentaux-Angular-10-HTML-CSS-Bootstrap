@@ -1,0 +1,29 @@
+#h_div{
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+}
+#h_d_div_title{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#m_h_div{
+    display: flex;
+    justify-content: space-around;
+}
+#m_m{
+    display: flex;
+    justify-content: space-around;
+}
+#m_f_div{
+    display: flex;
+    height: 20px;
+    margin-left: 10%;
+}
+#f{
+    display: flex;
+    background-color: silver;
+    justify-content: space-between;
+}

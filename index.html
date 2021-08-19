@@ -7,6 +7,10 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
     <title>index</title>
     <style>
+        img{
+            width: 100%;
+            height: auto;
+        }
         .debug{
             border: 1px solid red;
         }
@@ -15,6 +19,9 @@
         }
         .m-10{
             margin: 10px;
+        }
+        .m-t-50{
+            margin-top: 50px;
         }
         .p-10{
             padding: 10px;
@@ -29,20 +36,70 @@
         .au_max{
             width: 100%;
         }
+        .container{
+
+        }
+        .container .row{
+
+        }
+        .container .flexible{
+            display: flex;
+
+        }
+        .container .row .col{
+
+        
+        }
+        .taille-container{
+            width: 1000px;
+        }
+        .auto-margin{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @media screen and (max-width:800px) {
+            .taille-container{
+                width: 450px;
+            }
+            
+        }
+
     </style>
 </head>
 <body>
     <header class="header fixed debug p-10 au_max">
-        <div >
-            <div id="h_d_div_title">
-                    SelfiW
-            </div>
-            <div id="h_d_div_menu">
-                <img src="assets/images/icone_menu.png" alt="hamburger Menu">
-            </div>
-        </div>
+       <div class="container">
+           <div class="row flexible">
+               <div class="col">
+                    Logo
+               </div>
+               <div class="col">
+                    Premier menu
+               </div>
+           </div>
+       </div>
     </header>
-
+    <div class="m-t-50">
+        <section class="auto-margin taille-container">
+            <article class="container">
+                <div class="row flexible">
+                    <div class="col">
+                        titre selfie 1
+                    </div>
+                    <div class="col">
+                        [...]
+                    </div>
+                </div>
+                <div class="row flexible">
+                    <div class="col">
+                        <img src="assets/images/main.jpg" alt="image wookie">
+                    </div>
+                   
+                </div>
+               
+            </article>
+        </section>
+    </div>
     
     <footer class="footer fixed debug au_max">
         Footer
